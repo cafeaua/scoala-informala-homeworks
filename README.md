@@ -1,2 +1,4 @@
 # scoala-informala-homeworks
-Homeworks in a great need for a review. By Sipos Zoltan.
+Java G8
+Homeworks in a great need for a review. 
+@author Sipos Zoltan.
