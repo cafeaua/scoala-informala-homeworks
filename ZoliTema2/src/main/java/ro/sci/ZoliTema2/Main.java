@@ -3,6 +3,7 @@ package main.java.ro.sci.ZoliTema2;
 /**
  * Created by Sipos Zoltan 5.8.2017
  * This program sorts the Sales agents after the total sales amount in ascending order.
+ * Modified for review purposes 18.8.2017
  */
 public class Main {
     public static void main(String[] args) {
