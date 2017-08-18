@@ -1,7 +1,8 @@
 package main.java.ro.sci.ZoliTema2;
 
 /**
- * The Bubble Sort Algorithm, set to sort in a ascending order.
+ * The Bubble Sort Algorithm, set to sort in a ascending order. 
+ * Modified for review purposes 18.08.2017
  */
 public class SalesRepUtils {
     public static void BubbleSortReps(SalesRep[] reps) {
