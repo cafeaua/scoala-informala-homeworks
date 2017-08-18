@@ -1,6 +1,7 @@
 package main.java.ro.sci.BubbleSortHomework;
 /**
- * Created by Sipos Zoltan 30-7-2017
+ * Created by Sipos Zoltan 30-7-2017 
+ * Modified on git-hub 18-8-2017
  */
 
 import java.util.Arrays;
