@@ -1,7 +1,7 @@
 public class SalesRep {
 
     /**
-     * The players in the arena, stated below.
+     * Tema 3 
      */
 
     public String Name;
