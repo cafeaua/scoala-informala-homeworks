@@ -1,3 +1,6 @@
+/**
+ * Tema 3, partial rezolvata de Sipos Zoltan, supusa pentru review in 18.08.2017
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("Working dandy");
