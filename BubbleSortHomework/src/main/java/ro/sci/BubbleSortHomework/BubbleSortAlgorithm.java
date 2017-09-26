@@ -1,7 +1,10 @@
 package main.java.ro.sci.BubbleSortHomework;
+/**
+ * Bubble sort algorithm 
+ */
 
-public class BubbleSortAlgorithm {//Didn't invent this magic here, just plane-old copy-paste.
-
+public class BubbleSortAlgorithm {
+    //Didn't invent this magic here, just plane-old copy-paste.
     public static void BubbleSort(int[] intArray) {
         int temp = 0;
         String name = "";
