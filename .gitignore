@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 *.xml
 *.class
 *.iml
-=======
-.idea
+*.html
+*.css
+*.js
+*.idea
 index-files
 CarDealership.iml
 pom.xml
 target
 package-list
-*.html
-*.css
-*.js
->>>>>>> origin/develop
