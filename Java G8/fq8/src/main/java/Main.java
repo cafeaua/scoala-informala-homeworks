@@ -1,17 +1,42 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
+        Package[] packages = {
+                new Package("1","Cluj",100.5,70, "Luni"),
+                new Package("2","Cluj",100.5,100, "Luni"),
+                new Package("3","Cluj",100,70, "Marti"),
+                new Package("4","Dej",18,700, "Miercuri"),
+                new Package("5","Dej",18,7, "Luni")
+        };
+
+     //   System.out.println("---------------------");
+        Arrays.sort(packages, (a,b) ->a.targetLocation.compareTo(b.targetLocation));
+        System.out.println(Arrays.asList(packages));
+
+        Arrays.sort(packages, (a,b) ->a.deliveryDate.compareTo(b.deliveryDate));
+       System.out.println(Arrays.asList(packages));
+
     }
 }
-    /* You need to implement a small system to organize the package shipment.
+ /*
+
+System.out.println("--- before");
+        System.out.println(Arrays.asList(myTypes));
+        Arrays.sort(myTypes, (a, b) -> a.name.compareTo(b.name));
+        System.out.println("--- after");
+        System.out.println(Arrays.asList(myTypes));
+
+
+
+    You need to implement a small system to organize the package shipment.
 
         For each package you need to have the following data:
          - target location
          - distance in km to the target
          - merchandise value
          - delivery date
-
-
 
         The system should be able to sort the packages based on the target location and delivery date.
         For each bunch of packages which are delivered to the same location on a given date, the system must calculate the
